@@ -20,4 +20,4 @@ const blogSchema = new Schema({
 const Blog = mongoose.model('Blog', blogSchema); //first argument is name of the model, second argument is the schema
 
 
-module.exports = Blog;
+module.exports = Blog; //has to be exported so the project can utilize it
